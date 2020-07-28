@@ -1,7 +1,7 @@
 body {
     margin: 5% auto;
-    background: #f2f2f2;
-    color: #444444;
+    background: #F6F6F6;
+    color: rgba(0, 0, 0, 0.87);
     font-family: "Lato";
     font-size: 16px;
     line-height: 1.8;
@@ -10,14 +10,8 @@ body {
     text-align: center;
 }
 
-a {
-    border-bottom: 1px solid #444444;
-    color: #444444;
-    text-decoration: none;
-}
-
-a:hover {
-    border-bottom: 0;
+h1 {
+    color: #E92D19;
 }
 
 label {
@@ -28,6 +22,24 @@ label {
 
 input {
     width: 250px;
+    height: 40px;
+    font-size: 18px;
+}
+
+button {
+    padding: 6px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02875rem;
+    color: #FFFFFF;
+    background-color: #E92D19;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+button:hover {
+    background-color: rgb(163, 31, 17);
 }
 
 .valid {
